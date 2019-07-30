@@ -3,7 +3,7 @@ using System.Web.Mvc;
 
 namespace CleanArchitectureAspNetMvc5
 {
-public class CustomRazorViewEngine : CustomRazorViewEngine
+public class CustomRazorViewEngine : RazorViewEngine
 {
     public CustomRazorViewEngine()
     {
